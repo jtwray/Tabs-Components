@@ -58,7 +58,7 @@ class TabItem {
 
 */
 
-links = document.querySelectorAll('.tabs-link');
+// links = document.querySelectorAll('.tabs-link');
 
-let links = document.querySelectorAll('tabs-link').forEach(link => new Tablink(link));
+let links = document.querySelectorAll('.tabs-link').forEach(link => new Tablink(link));
 // let dropdowns = document.querySelectorAll('.dropdown').forEach(dropdown => new Dropdown(dropdown));
